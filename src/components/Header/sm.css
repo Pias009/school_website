@@ -1,0 +1,13 @@
+/* sm.css */
+
+.active-button {
+    background-color: rgb(169, 228, 118);
+  }
+  
+  .navbar-button {
+    min-width: 200px;
+    border-radius: 20px;
+  }
+  
+  /* Add any other styles as needed */
+  
