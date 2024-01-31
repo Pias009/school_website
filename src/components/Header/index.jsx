@@ -1,9 +1,8 @@
 import React from "react";
-
 import { useNavigate } from "react-router-dom";
-
 import { Button, Img, Text } from "components";
 import ResponsiveNavbar from "./sm";
+import "../Header/sm.css"
 
 const Header = (props) => {
   const navigate = useNavigate();
@@ -70,7 +69,7 @@ const Header = (props) => {
               shape="square"
               color="deep_orange_50"
               size="lg"
-              variant="fill"
+              variant="outline"
             >
               About Us
             </Button>
@@ -84,6 +83,7 @@ const Header = (props) => {
             >
               Academics
             </Button>
+
             <Button
               className="common-pointer !text-gray-900 cursor-pointer font-medium font-outfit h-20 sm:h-[31px] text-center text-xl"
               onClick={() => navigate("/admissionpagedesktop")}

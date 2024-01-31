@@ -29,8 +29,10 @@ const CollapsibleBox = ({ question, answer }) => {
 
 const YourComponent = () => {
     const collapsibleData = [
-        { question: "Is there a uniform policy for students?", answer: "Some text in the collapsible box about the uniform policy." },
+        { question: "Is there a uniform policy for students?", answer: "Ans repye text will be add by admine" },
         { question: "Another Question", answer: "Some text in the collapsible box for another question." },
+        { question: "Is there a uniform policy for students?", answer: "Ans repye text will be add by admin." },
+        { question: "Mostly Ask Qustions", answer: "Ans repye text will be add by admin" },
     ];
 
     return (

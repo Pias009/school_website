@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { Button, Img, Line, List, Text } from "../../components";
 import Header from "../../components/Header";
+import Footer from "components/Footer/Footer";
 const ButtonF = () => {
   const [activeButton, setActiveButton] = useState(null);
 
@@ -480,7 +481,7 @@ const AcademicsPageDesktopPage = () => {
                       alt="buttonscontaine"
                     />
                   </div>
-                  <Text className="font-medium font-outfit leading-[150.00%] max-w-[1496px] md:max-w-full text-[22px] text-gray-800 sm:text-lg md:text-xl">
+                  <Text className="font-medium font-outfit leading-[150.00%] max-w-[1496px] md:max-w-full text-[22px] sm:text-[13px] sm:leading-none text-gray-800 sm:text-lg md:text-xl">
                     Our well-equipped classrooms are designed to provide a nurturing and stimulating learning
                     environment. Each classroom is thoughtfully arranged to inspire creativity, curiosity, and
                     engagement.
@@ -522,7 +523,7 @@ const AcademicsPageDesktopPage = () => {
                       alt="buttonscontaine"
                     />
                   </div>
-                  <Text className="font-medium font-outfit text-[22px] text-gray-800 sm:text-lg md:text-xl w-full">
+                  <Text className="font-medium font-outfit text-[22px] text-gray-800 sm:text-lg md:text-xl w-full sm:text-[13px] sm:leading-none">
                     <>
                       Our expansive library is a treasure trove of books, fostering a love for reading and supporting
                       students&#39; literacy development.
@@ -564,7 +565,7 @@ const AcademicsPageDesktopPage = () => {
                       alt="buttonscontaine"
                     />
                   </div>
-                  <Text className="font-medium font-outfit text-[22px] text-gray-800 sm:text-lg md:text-xl w-full">
+                  <Text className="font-medium font-outfit text-[22px] text-gray-800 sm:text-lg md:text-xl w-full sm:text-[13px] sm:leading-none">
                     Our hands-on science lab allows students to conduct experiments and explore scientific concepts in a
                     fun and interactive way.
                   </Text>
@@ -604,7 +605,7 @@ const AcademicsPageDesktopPage = () => {
                       alt="buttonscontaine"
                     />
                   </div>
-                  <Text className="font-medium font-outfit text-[22px] text-gray-800 sm:text-lg md:text-xl w-full">
+                  <Text className="font-medium font-outfit text-[22px] text-gray-800 sm:text-lg md:text-xl w-full sm:text-[13px] sm:leading-none">
                     <>
                       Equipped with age-appropriate technology, the computer lab enhances students&#39; digital literacy
                       and computational skills
@@ -646,7 +647,7 @@ const AcademicsPageDesktopPage = () => {
                       alt="buttonscontaine"
                     />
                   </div>
-                  <Text className="font-medium font-outfit text-[22px] text-gray-800 sm:text-lg md:text-xl w-full">
+                  <Text className="font-medium font-outfit text-[22px] text-gray-800 sm:text-lg md:text-xl w-full sm:text-[13px] sm:leading-none">
                     Our garden and nature area offer an opportunity for children to connect with nature and learn about
                     plants and the environment.
                   </Text>
@@ -655,118 +656,7 @@ const AcademicsPageDesktopPage = () => {
             </List>
           </div>
         </div>
-        <div className="bg-white-A700 border-2 border-gray-900 border-solid flex flex-col items-start justify-start sm:m-[] max-w-[1820px] mb-8 mt-[200px] mx-auto sm:p-[] pb-10 pt-[100px] sm:pt-[] md:px-5 px-[113px] rounded-[12px] shadow-bs1 w-full">
-          <div className="flex flex-col gap-[50px] items-center justify-start w-full">
-            <div className="flex md:flex-col flex-row md:gap-10 gap-20 items-start justify-start w-full">
-              <div className="flex sm:flex-1 flex-col gap-[50px] items-start justify-start w-[519px] sm:w-full">
-                <div className="flex flex-col gap-5 items-start justify-start w-full">
-                  <Img className="h-[50px] w-[228px]" src="images/img_logo.svg" alt="logo_One" />
-                  <Text className="font-medium leading-[150.00%] max-w-[519px] md:max-w-full text-gray-800 text-xl">
-                    We believe in the power of play to foster creativity, problem-solving skills, and imagination.
-                  </Text>
-                </div>
-                <div className="flex flex-col gap-6 items-start justify-start w-full">
-                  <div className="flex flex-row gap-2.5 items-center justify-start w-full">
-                    <Button
-                      className="flex h-10 items-center justify-center outline outline-[2px] outline-gray-900 rounded-md w-10"
-                      shape="round"
-                      color="red_50"
-                      size="xs"
-                      variant="fill"
-                    >
-                      <Img src="images/img_subtract.svg" alt="subtract" />
-                    </Button>
-                    <Text className="flex-1 font-medium text-gray-900 text-xl w-auto">hello@littlelearners.com</Text>
-                  </div>
-                  <div className="flex flex-row gap-2.5 items-center justify-start w-full">
-                    <Button
-                      className="flex h-10 items-center justify-center outline outline-[2px] outline-gray-900 rounded-md w-10"
-                      shape="round"
-                      color="red_50"
-                      size="xs"
-                      variant="fill"
-                    >
-                      <Img className="h-[21px]" src="images/img_call.svg" alt="call" />
-                    </Button>
-                    <Text className="flex-1 font-medium text-gray-900 text-xl w-auto">+91 91813 23 2309</Text>
-                  </div>
-                  <div className="flex flex-row gap-2.5 items-center justify-start w-full">
-                    <Button
-                      className="flex h-10 items-center justify-center outline outline-[2px] outline-gray-900 rounded-md w-10"
-                      shape="round"
-                      color="red_50"
-                      size="xs"
-                      variant="fill"
-                    >
-                      <Img src="images/img_linkedin.svg" alt="linkedin" />
-                    </Button>
-                    <Text className="flex-1 font-medium text-gray-900 text-xl w-auto">Somewhere in the World</Text>
-                  </div>
-                </div>
-              </div>
-              <div className="flex flex-1 md:flex-col flex-row gap-[30px] items-start justify-start w-full">
-                <div className="flex flex-1 flex-col gap-6 items-start justify-start w-full">
-                  <Text className="font-semibold text-gray-900 text-xl w-full">Home</Text>
-                  <div className="flex flex-col gap-3.5 items-start justify-start w-full">
-                    <Text className="font-medium text-blue_gray-900 text-xl w-full">Features</Text>
-                    <Text className="font-medium text-blue_gray-900 text-xl w-full">Our Testimonials</Text>
-                    <Text className="font-medium text-blue_gray-900 text-xl w-full">FAQ</Text>
-                  </div>
-                </div>
-                <div className="flex flex-1 flex-col gap-6 items-start justify-start w-full">
-                  <Text className="font-semibold text-gray-900 text-xl w-full">About Us</Text>
-                  <div className="flex flex-col gap-3.5 items-start justify-start w-full">
-                    <Text className="font-medium text-blue_gray-900 text-xl w-full">Our Mission</Text>
-                    <Text className="font-medium text-blue_gray-900 text-xl w-full">Our Vission</Text>
-                    <Text className="font-medium text-blue_gray-900 text-xl w-full">Awards and Recognitions</Text>
-                    <Text className="font-medium text-blue_gray-900 text-xl w-full">History</Text>
-                    <Text className="font-medium text-blue_gray-900 text-xl w-full">Teachers</Text>
-                  </div>
-                </div>
-                <List
-                  className="md:flex-1 sm:flex-col flex-row gap-[30px] grid sm:grid-cols-1 grid-cols-2 w-[49%] md:w-full"
-                  orientation="horizontal"
-                >
-                  <div className="flex flex-col gap-6 items-start justify-start w-full">
-                    <Text className="font-semibold text-gray-900 text-xl w-full">Academics</Text>
-                    <div className="flex flex-col gap-3.5 items-start justify-start w-full">
-                      <Text className="font-medium text-blue_gray-900 text-xl w-full">Special Features</Text>
-                      <Text className="font-medium text-blue_gray-900 text-xl w-full">Gallery</Text>
-                    </div>
-                  </div>
-                  <div className="flex flex-col gap-6 items-start justify-start w-full">
-                    <Text className="font-semibold text-gray-900 text-xl w-full">Contact Us</Text>
-                    <div className="flex flex-col gap-3.5 items-start justify-start w-full">
-                      <Text className="font-medium text-blue_gray-900 text-xl w-full">Information</Text>
-                      <Text className="font-medium text-blue_gray-900 text-xl w-full">Map & Direction</Text>
-                    </div>
-                  </div>
-                </List>
-              </div>
-            </div>
-            <div className="flex flex-col gap-[30px] items-center justify-start w-full">
-              <Line className="bg-gray-900 h-px w-full" />
-              <div className="flex md:flex-col flex-row md:gap-10 items-center justify-between w-full">
-                <div className="flex sm:flex-1 sm:flex-col flex-row gap-4 items-start justify-start w-auto sm:w-full">
-                  <a href="javascript:" className="font-medium text-blue_gray-900 text-lg w-auto">
-                    <Text>Terms of Service</Text>
-                  </a>
-                  <Line className="bg-gray-900 sm:h-0.5 h-[27px] w-0.5 sm:w-full" />
-                  <a href="javascript:" className="font-medium text-blue_gray-900 text-lg w-auto">
-                    <Text>Privacy Policy</Text>
-                  </a>
-                  <Line className="bg-gray-900 sm:h-0.5 h-[27px] w-0.5 sm:w-full" />
-                  <Text className="font-medium text-blue_gray-900 text-lg w-auto">Cookie Policy</Text>
-                </div>
-                <Img className="h-14 w-[196px]" src="images/img_buttonscontainer.svg" alt="buttonscontaine" />
-              </div>
-              <Line className="bg-gray-900 h-px w-full" />
-              <Text className="font-medium text-center text-gray-700 text-lg w-full">
-                Copyright © [2023] Little Learners Academy. All rights reserved.
-              </Text>
-            </div>
-          </div>
-        </div>
+        <Footer />
       </div>
     </>
   );
